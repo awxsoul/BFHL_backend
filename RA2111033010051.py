@@ -53,5 +53,4 @@ def data_response():
         return data, 201
               
 
-if __name__ == '__main__':
-    RA2111033010051.run(debug=True)
+RA2111033010051.run(host='0.0.0.0')
